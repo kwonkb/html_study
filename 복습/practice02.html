@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-box {  
+            position: relative;      
+            margin-top: 400px;
+            border: 1px solid #222;
+            width: 800px;
+            height: 1200px;
+        }
+        .box {
+            text-align: center;
+            border: 1px solid red;
+            width: 100px;
+            height: 100px;
+        }
+
+        .sub-box7 {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            
+        }
+
+        .sub-box6 {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .sub-box5 {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .sub-box4 {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,50%);
+        }
+
+        .sub-box3 {
+            position: absolute;
+            top: 10px;
+            right: 50%;
+            transform: translateX(30%);
+        }
+
+        .sub-box1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class =main-box>
+        <div class="box sub-box1">1</div>
+        <div class="box sub-box3">3</div>
+        <div class="box sub-box4">4</div>
+        <div class="box sub-box5">5</div>
+        <div class="box sub-box6">6</div>
+        <div class="box sub-box7">7</div>
+    </div>
+    
+    
+</body>
+</html>
